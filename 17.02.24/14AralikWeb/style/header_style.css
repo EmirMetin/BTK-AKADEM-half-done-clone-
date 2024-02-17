@@ -1,0 +1,42 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  justify-items: center;
+  background-color: white;
+}
+
+
+.header .logo {
+  height: 70px;
+}
+
+.aramakutusu {
+  width: 700px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+
+.girisbuton {
+  background-color: #1D85E8;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+}

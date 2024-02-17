@@ -1,0 +1,44 @@
+/* @import url("header_style.css"); */
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #034f84;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+  grid-template-rows: 100px 1fr 80px;
+  grid-template-areas: "baslik baslik"
+    "solmenu icerik"
+    "altkisim altkisim";
+
+}
+
+.header,
+.nav,
+.content,
+.footer {
+
+  border: 1px solid #fff;
+
+}
+
+.header {
+  grid-area: baslik;
+}
+
+.nav {
+  grid-area: solmenu;
+}
+
+.content {
+  grid-area: icerik;
+}
+
+
+.footer {
+  grid-area: altkisim;
+}
